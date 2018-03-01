@@ -6,7 +6,7 @@ import org.quickconnectfamily.json.*;
 
 /*
  * JSON is JavaScript Object Notation. Simply, it is a lightweight way to store data in a human readable format.
- * qcJSON is a small java library which was designed to make JSON easier to use in Java.
+ * qcJSON and other JSON libraries are designed to make JSON easier to use in Java.
  */
 
 public class JsonDemo {
@@ -46,7 +46,7 @@ public class JsonDemo {
 			
 			// Now we will use the retrieved data...
 			
-			Player temp = new Player("John", "Doe", "QB", 76);
+			Player temp = new Player("Matt", "Ryan", "QB", 2);
 			System.out.println("\nThis is the temp object before changes\n"
 					+ temp);
 			
