@@ -4,6 +4,7 @@ package threads;
 public class RunnableExampleMain {
 
     public static void main(String[] args) {
+
         System.out.println("Executing program...");
         
         // Create a new instance of our class that implements the Runnable interface.
@@ -37,6 +38,6 @@ public class RunnableExampleMain {
                 }
             }
         }, "Thread 3");
-        thread3.start();
+        thread3.start();        
     }
 }
