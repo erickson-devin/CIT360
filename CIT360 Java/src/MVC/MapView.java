@@ -9,7 +9,7 @@ package MVC;
 
 /**
  *
- * @author JacobsonKe
+ * @author devin erickson
  */
 public class MapView {
     
