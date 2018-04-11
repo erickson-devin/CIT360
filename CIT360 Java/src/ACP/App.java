@@ -33,7 +33,7 @@ public class App {
     }
 
     private static void initiate(ApplicationController app) {
-        app.handleRequest("Menu");
+        app.handleRequest("Main Menu");
         
         Scanner in = new Scanner(System.in);
         String option = in.nextLine();
