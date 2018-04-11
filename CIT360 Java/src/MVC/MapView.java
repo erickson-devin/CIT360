@@ -18,7 +18,7 @@ public class MapView {
     
     public void displayMap(){
         Game game = LostInSpace.getCurrentGame();
-        ModelMap map = game.getMap();
+        UserMap map = game.getMap();
         Planet[] location = map.getLocation();
         
         for(int i=0; i < location.length; i++){
