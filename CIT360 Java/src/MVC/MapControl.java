@@ -13,7 +13,7 @@ public class MapControl {
 
     public static Map createMap() {
     
-    Map map = new Map();
+    ModelMap map = new ModelMap();
     Planet[] locations = new Planet[25];
     
     /*private String name;
